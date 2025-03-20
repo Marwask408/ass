@@ -416,6 +416,22 @@ print(union_sans_doublon([1, 6, 2, 4], [2, 7, 6, 2]))
 ```
 ````
 
+```
+## correction 2
+l1=[2,5,8,12,14,3]
+l2=[3,1,-1]
+
+
+def intersection(l1,l2):
+  l3=list()
+  for e in l1:
+    if e in l2:
+        l3.append(e)
+  return l3
+print(intersection(l1,l2))
+
+```
+
 ## Copie de liste
 
 Pour la plupart des variables, en Python, la copie ne pose pas de problème :
