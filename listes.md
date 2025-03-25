@@ -1645,3 +1645,12 @@ correction f
 sol 1 {'A': 3, 'B': 4, 'C': 3}
 sol 2 {'A': 3, 'B': 4, 'C': 3}
 sol 3 {'A': 3, 'B': 4, 'C': 3}
+corr
+def aff(dessin):
+  for ligne in dessin:
+    for col in ligne:
+      if col == 1:
+        print(" *", end= "")
+      else:
+        print(" .", end= "")
+    print()
