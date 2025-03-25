@@ -1641,3 +1641,7 @@ Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de m√
 1. [Argmax](ex4.1)
 2. [Intersection de listes](ex4.2)
 3. [Union de listes](ex4.3)
+correction f
+sol 1 {'A': 3, 'B': 4, 'C': 3}
+sol 2 {'A': 3, 'B': 4, 'C': 3}
+sol 3 {'A': 3, 'B': 4, 'C': 3}
